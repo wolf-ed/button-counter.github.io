@@ -11,7 +11,7 @@ buttonSelector.onclick = function(){
     const month = new Date()
 
     //put together a message to print
-    let date = "<h2>Your pressed the button today, <br>day: " + d.getDate() + " of the month: "
+    let date = "<h2>Your pressed the button today: <br>Day: " + d.getDate() + "Month: "
     + month.getMonth() + "<br><br><br><br> Number of times you pressed it: <br><br><br><span>" + timesPressed + "</span></h2>";
     
     //select where it will be printed
