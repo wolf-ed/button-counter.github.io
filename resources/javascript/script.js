@@ -12,8 +12,10 @@ buttonSelector.onclick = function(){
         month = '0' + month;
     }
     //put together a message to print
-    let date = "<br><h2>You pressed the button today: <br>Day: " + d.getDate() + ". Month: "
-    + month + "<br> Number of times you pressed it: <br><span>" + timesPressed + "</span></h2>";
+   /* let date = "<br><h2>You pressed the button today: <br>Day: " + d.getDate() + ". Month: "
+    + month + "<br> Number of times you pressed it: <br><span>" + timesPressed + "</span></h2>";*/
+    let date = `<h2>You pressed the button today: <br>Day: ${d.getDate()}. Month: ${month} 
+    <br> Number of times you pressed it: <br><span>  ${timesPressed} </span></h2> `;
     
     //select where it will be printed
     document.getElementById('placeToPrint').innerHTML = date;

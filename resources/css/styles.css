@@ -27,6 +27,7 @@ article {
     min-height: 20em;
     text-align: center;
     background-color: black;
+    padding: 1em 1em;
 }
 
 article h2 {
